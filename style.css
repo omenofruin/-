@@ -43,7 +43,13 @@ nav ul { display: flex; gap: 20px; font-weight: bold; }
 .cert-list li:last-child { border-bottom: none; }
 .cert-date { font-weight: bold; color: #111; min-width: 80px; }
 .cert-name { flex: 1; font-size: 1.1rem; color: #333; font-weight: 500; }
-.cert-org { color: #888; font-size: 0.9rem; min-width: 120px; text-align: right; }
+.cert-org { color: #888; font-size: 0.9rem; min-width: 150px; text-align: right; }
+
+/* 연락처 및 SNS 추가 스타일 */
+.contact-info { margin-top: 20px; font-size: 1.1rem; line-height: 1.8; color: #444; }
+.social-links { margin-top: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+.sns-btn { padding: 10px 25px; border: 1px solid #333; border-radius: 50px; font-weight: bold; font-size: 0.9rem; color: #333; transition: all 0.3s ease; }
+.sns-btn:hover { background: #111; color: #fff; }
 
 /* 하단 (푸터) */
 footer { padding: 30px; background: #222; color: #888; text-align: center; font-size: 0.8rem; }
